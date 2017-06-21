@@ -16,7 +16,7 @@ namespace BDD_specflow_demo
         public void GivenIAmOnLiveGuruSite()
         {
             //driver = new FirefoxDriver();
-            driver = new ChromeDriver(@"E:\programming\C#\BDD\BDD_specflow_demo\BDD_specflow_demo\Drivers");
+            driver = new ChromeDriver(@"E:\programming\C#\selenium\BDD_specflow_demo\BDD_specflow_demo\Drivers\");
             driver.Manage().Cookies.DeleteAllCookies();
             driver.Navigate().GoToUrl(MyAccountUI.MY_ACCOUNT_URL);
             driver.Manage().Window.Maximize();
